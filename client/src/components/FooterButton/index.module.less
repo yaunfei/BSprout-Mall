@@ -1,0 +1,59 @@
+@safeBottom: 25px;
+@safePdBottom: 25px; // 安全区域
+@btnHeight: 66px;
+@innerBtnHeight: calc(66px + @safePdBottom);
+
+.footerButtonHeight {
+  height: @innerBtnHeight;
+}
+
+.footerButton {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: @btnHeight;
+  line-height: @btnHeight;
+  background-color: #fff;
+  z-index: 10;
+  padding-bottom: @safePdBottom;
+
+  button {
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 16px;
+    margin-top: 8px;
+    border-radius: 40px;
+  }
+
+  button:after {
+    border: unset;
+    border-radius: unset;
+  }
+
+  .confirmButton {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #FA4125;
+  }
+
+  .cancelButton {
+    font-weight: 500;
+    color: #ff3232;
+    background-color: #f7f8fb;
+  }
+}
+
+.footerButtonWarp {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: @btnHeight;
+  line-height: @btnHeight;
+  background-color: #fff;
+  z-index: 10;
+  padding-bottom: @safePdBottom;
+}

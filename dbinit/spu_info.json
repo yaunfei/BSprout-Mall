@@ -1,0 +1,73 @@
+{
+    "_id": "7f12906f64880c1f000a7841341bf1d8",
+    "amount": "100",
+    "goodsList": [
+        { "id": 1, "skuIds": [11, 21], "skuName": "白色 10" },
+        { "id": 2, "skuIds": [11, 22], "skuName": "白色 9" },
+        { "id": 3, "skuIds": [12, 21], "skuName": "混合 10" },
+        { "id": 4, "skuIds": [12, 22], "skuName": "混合 9" }
+    ],
+    "hitFlag": true,
+    "imgurls": [
+        "https://gitee.com/zhengyaunfei/gallery/raw/master/BSprout-Mall/spu_info/4a7569134322e8cdde958b322ecb1afd85c90cee104cdcec.jpg",
+        "https://gitee.com/zhengyaunfei/gallery/raw/master/BSprout-Mall/spu_info/b31504f4299879b7b4d63e3f6559aae3590f0ed7eb280ec0.jpg",
+        "https://gitee.com/zhengyaunfei/gallery/raw/master/BSprout-Mall/spu_info/1b63d73b7b2e3fa85ac947b340a689b95e9049813ae990ae.jpg"
+    ],
+    "mainUrl": "https://gitee.com/zhengyaunfei/gallery/raw/master/BSprout-Mall/spu_info/5bcb38afb71711fb95cca61e28fd87118901e1045b0bc9b4.jpg",
+    "name": "向日葵玫瑰花束",
+    "sku": [
+        {
+            "id": 1,
+            "items": [
+                { "id": 11, "name": "白色" },
+                { "id": 12, "name": "混合" }
+            ],
+            "name": "颜色"
+        },
+        {
+            "id": 2,
+            "items": [
+                { "id": 21, "name": "10" },
+                { "id": 22, "name": "9" }
+            ],
+            "name": "数据"
+        }
+    ],
+    "userInfo": {
+        "appId": "wx8edc977d7d5eba46",
+        "openId": "o2fs14wxceWuinIrd-4SWRL2THtc"
+    }
+}
+{
+    "_id": "9a4329b064885d6b000a714772a5f2e0",
+    "amount": "119",
+    "goodsList": [
+        { "id": 1, "skuIds": [14], "skuName": "全脂" },
+        { "id": 2, "skuIds": [15], "skuName": "低脂" },
+        { "id": 3, "skuIds": [16], "skuName": "脱脂" }
+    ],
+    "hitFlag": true,
+    "imgurls": [
+        "https://gitee.com/zhengyaunfei/gallery/raw/master/BSprout-Mall/spu_info/f4dc1bcdd098007612992130723b439aee1359acedf66e06.jpg",
+        "https://gitee.com/zhengyaunfei/gallery/raw/master/BSprout-Mall/spu_info/198ee3e01b53635535d237100461d2445eefbfc80d8befcc.jpg",
+        "https://gitee.com/zhengyaunfei/gallery/raw/master/BSprout-Mall/spu_info/a5b7773311843293cb634bede1a345f654676ee87778054a.jpg"
+    ],
+    "mainUrl": "https://gitee.com/zhengyaunfei/gallery/raw/master/BSprout-Mall/spu_info/88220c9a7bd29b8f540cabfb15caef3a97e7bfde898b7880.jpg",
+    "name": "进口牛奶",
+    "sku": [
+        {
+            "id": 1,
+            "items": [
+                { "id": 14, "name": "全脂" },
+                { "id": 15, "name": "低脂" },
+                { "id": 16, "name": "脱脂" }
+            ],
+            "name": "脂肪含量"
+        }
+    ],
+    "userInfo": {
+        "appId": "wx8edc977d7d5eba46",
+        "openId": "o2fs14wxceWuinIrd-4SWRL2THtc"
+    }
+}
+

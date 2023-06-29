@@ -1,0 +1,39 @@
+@itemWidth: calc((100vw - 44px) / 2);
+@topMarign: 16px;
+
+.mallItemsContentInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .contentItem {
+    width: @itemWidth;
+    margin-top: @topMarign;
+
+    .itemImg {
+      width: @itemWidth;
+      height: @itemWidth;
+    }
+
+    .itemName {
+      font-size: 14px;
+      font-weight: 500;
+      color: #262626;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-top: 8px;
+    }
+
+    .itemAmount {
+      font-size: 14px;
+      font-weight: bold;
+      color: #262626;
+      margin-top: 8px;
+    }
+  }
+
+  .infiniteScrollStyle {
+    margin: 0 auto;
+  }
+}
