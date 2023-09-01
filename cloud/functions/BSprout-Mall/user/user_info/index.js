@@ -40,7 +40,6 @@ exports.main = async (event, context) => {
               openid,
               nick_name: "小豆芽用户",
               avatar_url: DEFAUL_TAVATAR,
-              manageFlag: true, // TODO 默认加上管理员。注意去掉
             },
           });
           return {
