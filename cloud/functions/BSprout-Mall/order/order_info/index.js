@@ -94,7 +94,7 @@ exports.main = async (event, context) => {
         mainUrl: true,
         name: true,
         // consignee_info: true,
-        // 默认加上管理员。注意去掉。脱敏
+        // TODO 默认加上管理员。注意去掉。脱敏
         consignee_info: {
           userName: $.concat([
             $.substrCP(["$consignee_info.userName", 0, 1]),

@@ -40,7 +40,7 @@ exports.main = async (event, context) => {
               openid,
               nick_name: "小豆芽用户",
               avatar_url: DEFAUL_TAVATAR,
-              manageFlag: true, // 默认加上管理员。注意去掉
+              manageFlag: true, // TODO 默认加上管理员。注意去掉
             },
           });
           return {
@@ -72,7 +72,9 @@ exports.main = async (event, context) => {
           openid,
         })
         .get();
-      return res?.data[0]?.manageFlag;
+      // TODO 默认加上管理员。注意去掉
+      // return res?.data[0]?.manageFlag;
+      return ture;
     }
   } catch (err) {
     return err;
